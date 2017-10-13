@@ -219,7 +219,8 @@ void KeeperDemo::process()
       default:
         break;
 
-      //      //need to consider the robot's movement for velocity value
+      //      //To Check: need to consider the robot's movement for velocity value
+      //      //If the ball is really close and not moving
       //            if (ball_distance < 0.20 && ball_velocity < 0.20) //m
       //            {
       //              count_to_follow ++;
